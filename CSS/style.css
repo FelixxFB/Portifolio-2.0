@@ -1,0 +1,352 @@
+@font-face {
+    font-family: 'Best School';
+    src: url('Best School.otf');
+}
+
+:root {
+    --color-background: #2A2A30;
+    --color-background2: #1C1C1C;
+    --color-black-heavy: #000000;
+    --color-text: #FFFAFA;
+    --color-secondary: #D0AC2D;
+    --color-white: #ffffff;
+}
+
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+.container{
+    padding: 30px 0px 30px 0px;
+
+
+}
+
+.color-span{
+    color: var(--color-secondary);
+}
+
+
+
+.navbar {
+    background-color: var(--color-background);
+}
+
+#logo {
+    font-family: 'Best School';
+    margin-left: 90px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#logo span {
+    color: var(--color-secondary);
+}
+
+.nav-item {
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    color: var(--color-secondary);
+
+}
+
+.nav-item span {
+    color: var(--color-secondary);
+}
+
+.container-home {
+    padding-top: 250px;
+    padding-bottom: 0px !important;
+  
+}
+
+.home-1 h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.home-1 h1 span {
+    color: var(--color-secondary);
+
+}
+
+.line {
+    display: flex;
+    width: 200px;
+    height: 1px;
+    background-color: var(--color-secondary);
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.links-home {
+    text-decoration: none;
+    color: var(--color-text);
+    margin-bottom: 30px;
+}
+
+.links-home:hover{
+    color: var(--color-secondary);
+}
+
+#btn-contato{
+    margin-top: 30px;
+    border: 1px solid var(--color-secondary);
+    text-align: center;
+    padding: 10px;
+    color: #D0AC2D;
+    height: 50px;
+    width: 100%;
+}
+
+#btn-contato:hover{
+    background-color:var(--color-secondary);
+    color: var(--color-text);
+}
+
+.home-2{
+    margin: 0px;
+    padding: 0px;
+    margin-top: -100px;
+}
+
+.home-2 img{
+width: 100%;
+height: 500px;
+
+}
+
+.home-3 h3 {
+    color: var(--color-secondary);
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.home-3 h2{
+    font-weight: bold;
+}
+.home-3 p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+
+}
+
+.home-3 #saiba-mais{
+    color: var(--color-secondary);
+    text-decoration: none;
+    
+}
+
+.home-3 #saiba-mais:hover{
+    color: var(--color-text);
+}
+
+.home-3 .icon-arrow{
+    padding: 5px;
+}
+
+.sobre{
+    background-color: var(--color-background2);
+}
+
+
+
+.h1-tittle{
+    font-size: 80px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    font-family: 'Best School';
+}
+
+.container-sobre h2{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.btns-download{
+    display: flex;
+   padding-top: 30px;
+}
+
+.btns-download a{
+    border: 1px solid var(--color-secondary);
+    padding: 15px;
+    margin-right: 20px;
+    color: var(--color-secondary);
+    margin-bottom: 10px;
+
+}
+
+.btns-download a:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+}
+
+.skills-container{
+    display: flex;
+}
+
+.skill{
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    margin: 30px 30px 30px 0px;
+    border-radius: 5px;
+    background-color: var(--color-background2);
+  
+}
+.skill h2{
+    color: var(--color-secondary);
+    text-align:center;
+    padding-bottom: 10px;
+}
+.skill span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+
+}
+
+.skill span i{
+    font-size:48px ;
+}
+
+.skill h3{
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.projetos{
+    background-color: var(--color-background2);
+}
+
+.container-projetos{
+    display: flex;
+   
+}
+
+.projeto{
+    background-color: var(--color-background);
+    height: 250px;
+    text-align: center;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.projeto:hover{
+    background-color: var(--color-secondary);
+}
+.projeto h2{
+    color:  var(--color-secondary);
+}
+.projeto h2{
+    color: var(--color-text);
+}
+
+.eclipse{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: var(--color-background2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px 10px 0px;
+
+}
+
+.eclipse span i{
+    font-size: 30px;
+}
+
+.contato-eclipse{
+  display: flex; 
+  margin-bottom: 30px;
+ 
+}
+
+.ctrl-hs{
+    text-align: start;
+    margin-top: 10px;
+}
+
+.ctrl-hs h4{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.btn-submit{
+    width: 100%;
+    border: 1px solid var(--color-secondary);
+    color: #D0AC2D;
+    height: 50px;
+    margin-top: 10px;
+    
+}
+
+.btn-submit:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+}
+
+.links-footer{
+  margin: 40px 0px 80px 0px;
+
+}
+
+.links-footer h3{
+    color:  var(--color-secondary);
+}
+
+.links-footer h4{
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px;
+}
+
+.footer{
+    background-color: var(--color-background2);
+}
+
+.footer h5{
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
