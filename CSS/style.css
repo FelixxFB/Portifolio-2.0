@@ -18,6 +18,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--color-background);
     color: var(--color-text);
+    
 }
 
 .container{
@@ -61,6 +62,10 @@ body {
 }
 
 .nav-item span {
+    color: var(--color-secondary);
+}
+
+.navbar-toggle-icon{
     color: var(--color-secondary);
 }
 

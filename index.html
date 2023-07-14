@@ -17,14 +17,26 @@
     <link rel="stylesheet" href="CSS/responsivo.css">
 </head>
 
-<body>
+<body class="">
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+           Email enviado!
+          </div>
+        </div>
+      </div>
     <header>
-        <div id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
+        <div id="container">
+            <nav class="navbar navbar-expand-lg fixed-top col-one">
                 <a href="#home" class="nav-item nav-link" id="logo"><span>.</span>félix</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
                     aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigaton">
-                    <span class="navbar-toggle-icon"></span>
+                    <span class="navbar-toggle-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end">
                     <div class="navbar-nav">
@@ -42,9 +54,9 @@
 
 
     <section class="home">
-        <div class="container container-home" id="home">
+        <div class="container container-home col-one" id="home">
             <div class="row">
-                <div class="col-3 home-1">
+                <div class="col-12 col-lg-3 col-md-3 col-sm-12 home-1">
                     <h1>Fabrício Félix<span>.</span></h1>
 
                     <span class="line"></span>
@@ -61,11 +73,11 @@
                         target="_blank">Contate-me</a>
                 </div>
 
-                <div class="col-6 home-2">
+                <div class="col-6 home-2 no-mobile">
                     <img src="IMG/fotohomeport.png" alt="foto-fabricio">
                 </div>
 
-                <div class="col-3 home-3">
+                <div class="col-12 col-lg-3 col-md-3 col-sm-12 home-3">
                     <h3>Introdução</h3>
                     <h2>Front-End,</h2>
                     <h2>UI/UX Designer</h2>
@@ -80,7 +92,7 @@
 
 
     <section class="sobre" id="sobre">
-        <div class="container container-sobre">
+        <div class="container container-sobre col-one">
             <div class="row">
                 <h1 class="h1-tittle"><span class="color-span">.</span>Sobre</h1>
                 <p>“Me chamo Fabricio Félix, atualmente tenho 28 anos e resido no Rio de Janeiro.</br>
@@ -92,7 +104,7 @@
                     e foi amor à primeira vista.</br>
                     Finalmente havia achado a junção perfeita entre as duas áreas que gosto tanto.”
                 </p>
-                <h2>Algumas das minhas certificações</h2>
+                <h2 id="containerSobreH2">Algumas das minhas certificações</h2>
 
                 <div class="btns-download">
                     <a class="btn" href="PDF/Certificado  UX Google Fabricio Félix.pdf"
@@ -109,7 +121,7 @@
 
     </section>
     <section class="skills" id="skills">
-        <div class="container">
+        <div class="container col-one">
             <div class="row">
                 <h1 class="h1-tittle"><span class="color-span">.</span>Skills</h1>
                 <div class="skills-container ">
@@ -150,7 +162,7 @@
     </section>
 
     <section class="projetos" id="projetos">
-        <div class="container">
+        <div class="container col-one">
             <div class="row">
                 <h1 class="h1-tittle"><span class="color-span">.</span>Projetos</h1>
 
@@ -174,10 +186,10 @@
         </div>
     </section>
     <section class="contato" id="contato">
-        <div class="container">
+        <div class="container col-one">
             <div class="row">
                 <h1 class="h1-tittle"><span class="color-span">.</span>Contato</h1>
-                <div class="container-eclipse col-6">
+                <div class="container-eclipse col-12 col-lg-6 col-md-6 col-sm-12">
 
                     <div class="contato-eclipse">
                         <div class="eclipse">
@@ -207,20 +219,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-form col-6" >
+                <div class="container-form col-12 col-lg-6 col-md-6 col-sm-12">
                     <form action="https://formsubmit.co/fabricioffs7566@gmail.com" method="POST" id="form">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
                         <div class="inputs-form mb-2">
                             <label for="#" class="form-label">Seu nome</label>
-                            <input type="text" class="form-control" name="name" placeholder="digite seu nome" id="nomeform">
+                            <input type="text" class="form-control" name="name" placeholder="digite seu nome"
+                                id="nomeform">
                         </div>
                         <div class="inputs-form mb-2">
                             <label for="#" class="form-label">Seu e-mail</label>
-                            <input type="email" class="form-control" name="email" placeholder="nome@exemplo.com" id="emailform">
+                            <input type="email" class="form-control" name="email" placeholder="nome@exemplo.com"
+                                id="emailform">
                         </div>
                         <div class="inputs-form mb-2">
                             <label for="#" class="form-label">Mensagem</label>
-                            <textarea class="form-control" name="message" placeholder="digite sua mensagem" rows="5"
+                            <textarea class="form-control" name="message" placeholder="digite sua mensagem" rows="4"
                                 id="msgform"></textarea>
+                                <input type="hidden" name="_captcha" value="false">
                         </div>
                         <button class="btn btn-submit" type="submit" id="submitform">Enviar</button>
                     </form>
@@ -232,11 +249,11 @@
     </section>
 
     <footer class="footer">
-        <div class="container">
+        <div class="container col-one">
             <div class="row">
                 <h1 class="h1-tittle"><span class="color-span">.</span>Obrigado<span class="color-span">!</span></h1>
 
-                <div class="links-footer col-4">
+                <div class="links-footer col-12 col-lg-4 col-md-4 col-sm-12">
                     <h3>Links</h3>
                     <h4>Home</h4>
                     <h4>Sobre</h4>
@@ -244,14 +261,14 @@
                     <h4>Projetos</h4>
                     <h4>Contato</h4>
                 </div>
-                <div class="links-footer col-4">
+                <div class="links-footer col-12 col-lg-4 col-md-4 col-sm-12">
                     <h3>Serviços</h3>
                     <h4>Designer</h4>
                     <h4>Web Designer</h4>
                     <h4>UX & UI Designer</h4>
                     <h4>Desenvolvedor Front-end</h4>
                 </div>
-                <div class="links-footer col-4">
+                <div class="links-footer col-12 col-lg-4 col-md-4 col-sm-12">
                     <h3>Perguntas?</h3>
                     <h4>(21) 98325-3319</h4>
                     <h4>fabricioffs7566@gmail.com</h4>

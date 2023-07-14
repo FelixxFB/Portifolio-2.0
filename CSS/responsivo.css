@@ -22,9 +22,72 @@
     }
 
     .col-one {
+        width: 100%;
         padding-left: 35px!important;
         padding-right: 35px!important;
     }
 
+    .h1-tittle{
 
+        padding-top: 30px;
+    }
+
+
+    .navbar{
+        width: 360px;
+    }
+
+    #logo{
+        margin-left: 0px;
+        
+    }
+
+    #home{
+        padding-top: 150px;
+    }
+
+    .home-3{
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #containerSobreH2{
+
+        text-align: center;
+    }
+
+
+    .btns-download{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btns-download .btn{
+
+        margin: 10px;
+    }
+
+    /* ecplise email nao deixa responsivo*/
+
+    .eclipse{
+        width: 70px;
+        height: 70px;
+    }
+
+    .eclipse span i{
+        font-size: 20px;
+    }
+    .contato-eclipse h4{
+        font-size: 13px;
+    }
+
+    .links-footer{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .footer h5{
+        margin-top: 30px;
+    }
 }
