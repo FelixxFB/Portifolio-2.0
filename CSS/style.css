@@ -127,9 +127,10 @@ body {
 }
 
 .home-2 img{
-width: 100%;
+width: 700px;
 height: 500px;
-
+z-index: 1;
+margin-left: -100px;
 }
 
 .home-3 h3 {
@@ -213,6 +214,7 @@ height: 500px;
     background-color: var(--color-background2);
   
 }
+
 .skill h2{
     color: var(--color-secondary);
     text-align:center;
@@ -242,8 +244,7 @@ height: 500px;
 }
 
 .container-projetos{
-    display: flex;
-   
+    display: flex;  
 }
 
 .projeto{
@@ -264,6 +265,14 @@ height: 500px;
 }
 .projeto h2{
     color: var(--color-text);
+}
+
+.projeto span i{
+    display: none;
+}
+
+.projeto h2:hover{
+    color: var(--color-black-heavy);
 }
 
 .eclipse{

@@ -68,6 +68,30 @@
         margin: 10px;
     }
 
+
+    .skills-container {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .container-projetos{
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .projeto{
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projeto span i{
+        display: inline;
+      margin-top: 30px;
+    }
+
+   
     /* ecplise email nao deixa responsivo*/
 
     .eclipse{
