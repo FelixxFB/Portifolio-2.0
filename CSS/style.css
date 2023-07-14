@@ -43,21 +43,28 @@ body {
     margin-left: 90px;
     font-size: 50px;
     cursor: pointer;
+    color: var(--color-text);
+}
+
+#logo:hover{
+    color: var(--color-secondary);
 }
 
 #logo span {
     color: var(--color-secondary);
 }
 
-.nav-item {
+.nav-link {
     padding: 10px;
     margin-right: 20px;
     font-size: 1.5rem;
     color: var(--color-text);
     cursor: pointer;
+    text-decoration: none;
+    
 }
 
-.nav-item:hover{
+.nav-link:hover{
     color: var(--color-secondary);
 
 }
@@ -71,7 +78,7 @@ body {
 }
 
 .container-home {
-    padding-top: 250px;
+    padding-top: 200px;
     padding-bottom: 0px !important;
   
 }
@@ -345,6 +352,30 @@ margin-left: -100px;
     font-size: 15px;
     font-weight: lighter;
 }
+
+/* estilo da scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--color-background2); 
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:var(--color-secondary); 
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:var(--color-background); 
+    border: solid 1px var(--color-secondary);
+  }
 
 
 

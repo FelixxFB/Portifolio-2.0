@@ -30,6 +30,11 @@
     .h1-tittle{
 
         padding-top: 30px;
+        font-size: 60px;
+    }
+
+    .footer h1{
+        text-align: center;
     }
 
 
