@@ -1,6 +1,8 @@
 @font-face {
-    font-family: 'Best School';
-    src: url('Best School.otf');
+    font-family:'Best School';
+    src: url('Best School Dingbat Font by Kelik (7NTypes).otf') format('opentype'), url('Best School Font by Kelik (7NTypes).otf') format('opentype'),
+    url('Best School Outline Font by Kelik (7NTypes).otf') format('opentype');
+    
 }
 
 :root {
@@ -38,7 +40,7 @@ body {
 }
 
 #logo {
-    font-family: 'Best School';
+    font-family: 'Best School', 'Poppins', sans-serif;
     margin-left: 90px;
     font-size: 50px;
     cursor: pointer;
@@ -171,7 +173,7 @@ height: 500px;
     font-size: 80px;
     padding-bottom: 50px;
     padding-top: 100px;
-    font-family: 'Best School';
+    font-family: 'Best School', 'Poppins', sans-serif;
 }
 
 .container-sobre h2{
