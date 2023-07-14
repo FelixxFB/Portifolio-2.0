@@ -1,7 +1,6 @@
 @font-face {
     font-family:'Best School';
-    src: url('Best School Dingbat Font by Kelik (7NTypes).otf') format('opentype'), url('Best School Font by Kelik (7NTypes).otf') format('opentype'),
-    url('Best School Outline Font by Kelik (7NTypes).otf') format('opentype');
+    src:  url('../FONTS/Best\ School\ Font\ by\ Kelik\ \(7NTypes\).otf') format('opentype');
     
 }
 
