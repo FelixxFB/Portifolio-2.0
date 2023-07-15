@@ -47,8 +47,13 @@
         
     }
 
+    .nav-link{
+        margin-right: 0px;
+        text-align: end;
+    }
+
     #home{
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
     .home-3{
