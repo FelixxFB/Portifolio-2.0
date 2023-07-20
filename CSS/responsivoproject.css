@@ -1,0 +1,70 @@
+/* Desktop e Tablets (col-md) 768px a 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Tablets (col-sm) 576px a 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Tablets e Celulares (col) 0px a 767px */
+@media (max-width: 767px) {
+
+    .no-mobile {
+        display: none!important;
+    }
+
+    .col-one {
+        width: 100%;
+        padding-left: 35px!important;
+        padding-right: 35px!important;
+        padding-bottom: 35px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        margin-bottom: 80px;
+    }
+
+    .tecnologias ul{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    .tecnologias li{
+        margin-bottom: 10px;
+        
+    }
+    p{
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    video{
+       margin-left: 3px;
+       margin-bottom: 0px;
+       z-index: 999;
+       margin-top: -150px;
+       margin-bottom: -100px;
+    }
+
+    img{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+
+    .linksexternos{
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+    }
+
+    a{
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+}

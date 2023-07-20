@@ -40,7 +40,7 @@ body {
 
 #logo {
     font-family: 'Best School', 'Poppins', sans-serif;
-    margin-left: 90px;
+    margin-left: 100px;
     font-size: 50px;
     cursor: pointer;
     color: var(--color-text);
@@ -262,24 +262,36 @@ margin-left: -100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+   
 
 }
 .projeto:hover{
     background-color: var(--color-secondary);
 }
+
 .projeto h2{
-    color:  var(--color-secondary);
-}
-.projeto h2{
+    font-size: 30px;
     color: var(--color-text);
+    text-decoration: none;
+    margin-bottom: 20px;
+    
 }
-
-.projeto span i{
-    display: none;
-}
-
 .projeto h2:hover{
     color: var(--color-black-heavy);
+}
+
+.btnproject{
+    background-color: var(--color-secondary);
+    color: #000000;
+    margin-top: 10px;
+    border: 1px solid var(--color-background);
+}
+
+.btnproject:hover{
+    background-color: #2A2A30;
+    color: var(--color-text);
 }
 
 .eclipse{
@@ -328,6 +340,16 @@ margin-left: -100px;
     color: var(--color-text);
 }
 
+.footer{
+    background-color: var(--color-background2);
+}
+
+.footer h5{
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
 .links-footer{
   margin: 40px 0px 80px 0px;
 
@@ -341,17 +363,15 @@ margin-left: -100px;
     font-size: 15px;
     font-weight: normal;
     padding: 5px;
+    
 }
 
-.footer{
-    background-color: var(--color-background2);
+.links-footer a{
+    text-decoration:none;
+    color: var(--color-text);
 }
 
-.footer h5{
-    text-align: center;
-    font-size: 15px;
-    font-weight: lighter;
-}
+
 
 /* estilo da scrollbar*/
 ::-webkit-scrollbar {

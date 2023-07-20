@@ -1,0 +1,120 @@
+@font-face {
+    font-family:'Best School';
+    src:  url('../FONTS/Best\ School\ Font\ by\ Kelik\ \(7NTypes\).otf') format('opentype');
+    
+}
+
+:root {
+    --color-background: #2A2A30;
+    --color-background2: #1C1C1C;
+    --color-black-heavy: #000000;
+    --color-text: #FFFAFA;
+    --color-secondary: #D0AC2D;
+    --color-white: #ffffff;
+}
+
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    
+}
+
+.container{
+    padding: 50px 0px 80px 0px;
+
+
+}
+
+h1{
+    font-family: 'Best School';
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+h2{
+    margin-bottom: 100px;
+}
+
+h3{
+    font-family: 'Best School';
+    color: var(--color-secondary);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.tecnologias ul{
+    padding: 0px;
+    margin-bottom: 80px;
+}
+
+.tecnologias li{
+    background-color: var(--color-secondary);
+    margin-left: 10px;  
+
+}
+.tecnologias li:hover{
+    border: 1px solid var(--color-secondary);
+}
+
+.tecnologias li i{
+    margin-right: 10px;
+}
+p{
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+span{
+    color: var(--color-secondary);
+}
+
+
+
+video{
+    margin-left: -90px;
+    margin-bottom: 80px;
+}
+
+
+img{
+    margin-bottom: 150px;
+    
+}
+
+a{
+    text-decoration: none!important;
+    color: var(--color-text);
+    margin-right: 20px;
+}
+
+a i{
+    margin-right: 5px;
+    color: var(--color-secondary);
+}
+
+/* estilo da scrollbar*/
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--color-background2); 
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:var(--color-secondary); 
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:var(--color-background); 
+    border: solid 1px var(--color-secondary);
+  }
+
